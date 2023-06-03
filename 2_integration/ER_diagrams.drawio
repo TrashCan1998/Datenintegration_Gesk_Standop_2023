@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-03T15:05:12.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="QdpeGxODBgQc18JRyMIu" version="21.3.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-03T15:31:25.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="1F710VDhsQ0fzBOVNT-o" version="21.3.7" type="device">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2163" dy="1798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -44,7 +44,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DT-S72Gsn81P_6tnB0-r-4" value="TripId int NOT NULL FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="DT-S72Gsn81P_6tnB0-r-2">
+        <mxCell id="DT-S72Gsn81P_6tnB0-r-4" value="TripId int NOT NULL FK&#xa;StopId int NOT NULL&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="DT-S72Gsn81P_6tnB0-r-2">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -57,7 +57,7 @@
             <mxRectangle width="30" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DT-S72Gsn81P_6tnB0-r-7" value="StopId int NOT NULL&#xa;StopSequence int&#xa;ArrivalDelay float&#xa;ArrivalTime float&#xa;DepartureDelay float&#xa;DepartureTime float&#xa;ScheduleRelationship str NOT NULL&#xa;&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="DT-S72Gsn81P_6tnB0-r-5">
+        <mxCell id="DT-S72Gsn81P_6tnB0-r-7" value="&#xa;StopSequence int&#xa;ArrivalDelay float&#xa;ArrivalTime float&#xa;DepartureDelay float&#xa;DepartureTime float&#xa;ScheduleRelationship str NOT NULL&#xa;&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="DT-S72Gsn81P_6tnB0-r-5">
           <mxGeometry x="30" width="220" height="110" as="geometry">
             <mxRectangle width="220" height="110" as="alternateBounds" />
           </mxGeometry>
